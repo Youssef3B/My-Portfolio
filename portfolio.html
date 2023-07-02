@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-K8FaWsdleLxgE4Y8k1zpCUPJqyI2ZbEX0dyXrELyiqvOFea02Bw6duAZ5RqEF4/tb1Zr+x+jvda0Iy4NqF3fMg==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Youssef</title>
+</head>
+<body>
+     <!--------------------------- Header --------------------------------------->
+     <header>
+        <div class="circle_header"></div>
+        <div class="avatar">
+            <img src="imgs/1.jpg" alt="avatar">
+            <h4>YOUSSEF</h4>
+        </div>
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html" class="active"><i class="ri-home-4-line"></i>HOME</a></li>
+                <li><a href="index.html"><i class="ri-user-3-line"></i>ABOUT ME</a></li>
+                <li><a href="index.html"><i class="ri-briefcase-line"></i>SERVICES</a></li>
+                <li><a href="index.html"><i class="ri-folder-line"></i>PORTFOLIO</a></li>
+                <li><a href="index.html"><i class="ri-contacts-book-line"></i>CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="social_media">
+            <a href=""><i class="ri-facebook-fill"></i></a>
+            <a href=""><i class="ri-instagram-line"></i></a>
+            <a href=""><i class="ri-twitter-line"></i></a>
+            <a href=""><i class="ri-linkedin-fill"></i></a>
+            <a href=""><i class="ri-github-line"></i></a>
+        </div>
+    </header>
+       <!-----------------------------------------------------Portfolio----------------------------------------------------------------->
+
+       <section class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="line"></div>
+
+        <menu>
+            <ul>
+                <li>All</li>
+                <li>Static WebSite</li>
+                <li>Dynamic Website</li>
+                <li>Videos</li>
+            </ul>
+        </menu>
+        <div class="container">
+            <div class="cards" onclick="openModal()">
+                <img src="work/1.jpg" alt="">
+                <div class="overlay">
+                    <h3>E-commerce Web Site</h3>
+                    <p>Dynamic Website</p>
+                </div>
+            </div>
+            <div class="cards" onclick="openModal()">
+                <img src="work/1.jpg" alt="">
+                <div class="overlay">
+                    <h3>E-commerce Web Site</h3>
+                    <p>Dynamic Website</p>
+                </div>
+            </div>
+            <div class="cards" onclick="openModal()">
+                <img src="work/2.jpg" alt="">
+                <div class="overlay">
+                    <h3>E-commerce Web Site</h3>
+                    <p>Dynamic Website</p>
+                </div>
+            </div>
+            <div class="cards" onclick="openModal()">
+                <img src="work/2.jpg" alt="">
+                <div class="overlay">
+                    <h3>E-commerce Web Site</h3>
+                    <p>Dynamic Website</p>
+                </div>
+            </div>
+            <div class="cards" onclick="openModal()">
+                <img src="work/2.jpg" alt="">
+                <div class="overlay">
+                    <h3>E-commerce Web Site</h3>
+                    <p>Dynamic Website</p>
+                </div>
+            </div>
+            <div class="cards" onclick="openModal()">
+                <img src="work/2.jpg" alt="">
+                <div class="overlay">
+                    <h3>E-commerce Web Site</h3>
+                    <p>Dynamic Website</p>
+                </div>
+            </div>
+            <div class="cards" onclick="openModal()">
+                <img src="work/2.jpg" alt="">
+                <div class="overlay">
+                    <h3>E-commerce Web Site</h3>
+                    <p>Dynamic Website</p>
+                </div>
+            </div>
+            <div class="cards" onclick="openModal()">
+                <img src="work/2.jpg" alt="">
+                <div class="overlay">
+                    <h3>E-commerce Web Site</h3>
+                    <p>Dynamic Website</p>
+                </div>
+            </div>
+            <div class="cards" onclick="openModal()">
+                <img src="work/2.jpg" alt="">
+                <div class="overlay">
+                    <h3>E-commerce Web Site</h3>
+                    <p>Dynamic Website</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img src="work/2.jpg" alt="">
+                <div class="content-info">
+                    <p>Title Work:</p>
+                    <p>Description of this Work:</p>
+                    <button>See The Work</button>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+       <!--------------------------- Header-mobile --------------------------------------->
+
+       <menu class="header-mobile">
+        <ul>
+            <li><a href="index.html" class="active"><i class="ri-home-4-line"></i>HOME</a></li>
+            <li><a href="index.html"><i class="ri-user-3-line"></i>ABOUT ME</a></li>
+            <li><a href="index.html"><i class="ri-briefcase-line"></i>SERVICES</a></li>
+            <li><a href="index.html"><i class="ri-folder-line"></i>PORTFOLIO</a></li>
+            <li><a href="index.html"><i class="ri-contacts-book-line"></i>CONTACT</a></li>
+        </ul>
+    </menu>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/55fb3991e6.js" crossorigin="anonymous"></script>
+</body>
+</html>
